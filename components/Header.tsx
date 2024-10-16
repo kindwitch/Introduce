@@ -12,13 +12,18 @@ import React from 'react'
 export default function Header() {
   return (
     <div>
-      <nav className="bg-red-900 py-4 px-8 flex">
+      <nav className="bg-blue-900 py-4 px-8 flex justify-between">
         <div className="flex items-center justify-between container">
           <div className="flex items-center font-bold">
             <Link href="/">
               <div className="text-lg text-white">Clerk Auth</div>
             </Link>
           </div>
+        </div>
+        <div className="flex items-center font-bold">
+          <Link href="/project">
+            <div className="text-lg text-white">project</div>
+          </Link>
         </div>
         <div className="flex items-center font-bold">
           <div className="flex items-center font-bold">
