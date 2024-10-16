@@ -47,6 +47,7 @@ export default function Home() {
             반딧불이 유투브
           </a>
         </div>
+        <img src="/apple.jpeg" />
       </main>
     </div>
   )
