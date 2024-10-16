@@ -26,6 +26,11 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex items-center font-bold">
+          <Link href="/contact">
+            <div className="text-lg text-white">contact</div>
+          </Link>
+        </div>
+        <div className="flex items-center font-bold">
           <div className="flex items-center font-bold">
             <SignedOut>
               <div className="text-gray-300 hover:text-white mr-4">
